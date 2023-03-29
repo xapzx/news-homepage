@@ -192,7 +192,7 @@ header {
 
 .article-item {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto 1fr;
     grid-template-columns: auto 1fr;
 }
 
@@ -212,4 +212,12 @@ header {
     color: var(--clr-neutral-very-dark-blue);
     font-size: 1.1rem;
     font-weight: var(--fw-extrabold);
+}
+
+@media (min-width: 1000px) {
+    .top-articles {
+        margin-top: 4rem;
+        flex-direction: row;
+
+    }
 }
