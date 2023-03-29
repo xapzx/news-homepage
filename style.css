@@ -99,3 +99,33 @@ header {
     font-weight: var(--fw-extrabold);
     margin-bottom: 0.5rem;
 }
+
+.top-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-item {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto 1fr;
+}
+
+.article-img {
+    grid-row: 1 / -1;
+    width: 6rem;
+    margin-right: 1.5rem;
+}
+
+.article-number {
+    color: var(--clr-neutral-grayish-blue);
+    font-size: 2rem;
+    font-weight: var(--fw-extrabold);
+}
+
+.article-title {
+    color: var(--clr-neutral-very-dark-blue);
+    font-size: 1.1rem;
+    font-weight: var(--fw-extrabold);
+}
