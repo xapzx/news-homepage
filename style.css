@@ -23,7 +23,7 @@ body {
     font-size: var(--fs-base);
     color: var(--clr-neutral-dark-grayish-blue);
     font-weight: var(--fw-regular);
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0 2rem;
     display: grid;
     place-content: center;
     position: relative;
@@ -37,6 +37,11 @@ header {
 
 .brand-logo {
     width: 2.75rem;
+}
+
+.nav-item:hover {
+    color: var(--clr-primary-soft-red);
+    cursor: pointer;
 }
 
 .navbar-toggler {
@@ -66,7 +71,7 @@ header {
 
 @media (min-width: 1000px) {
     body {
-        padding: 5rem 11rem;
+        padding: 6.3rem 11rem;
     }
 
     .brand-logo {
@@ -112,6 +117,11 @@ header {
     padding: 1rem 2.25rem;
 }
 
+.read-more-btn:hover {
+    background-color: var(--clr-neutral-very-dark-blue);
+    cursor: pointer;
+}
+
 .news {
     background-color: var(--clr-neutral-very-dark-blue);
     color: var(--clr-neutral-grayish-blue);
@@ -140,6 +150,11 @@ header {
     font-size: 1.25rem;
     font-weight: var(--fw-extrabold);
     margin-bottom: 0.5rem;
+}
+
+.new-title:hover {
+    color: var(--clr-primary-soft-orange);
+    cursor: pointer;
 }
 
 @media (min-width: 1000px) {
@@ -212,6 +227,11 @@ header {
     color: var(--clr-neutral-very-dark-blue);
     font-size: 1.1rem;
     font-weight: var(--fw-extrabold);
+}
+
+.article-title:hover {
+    color: var(--clr-primary-soft-red);
+    cursor: pointer;
 }
 
 @media (min-width: 1000px) {
