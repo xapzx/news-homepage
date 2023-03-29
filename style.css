@@ -185,8 +185,8 @@ header {
 }
 
 .top-articles {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -217,7 +217,7 @@ header {
 @media (min-width: 1000px) {
     .top-articles {
         margin-top: 4rem;
-        flex-direction: row;
-
+        grid-template-rows: unset;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
