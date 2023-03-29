@@ -69,3 +69,32 @@ header {
     border: none;
     padding: 1rem 2.25rem;
 }
+
+.news {
+    background-color: var(--clr-neutral-very-dark-blue);
+    padding: 1rem 1.3rem;
+    color: var(--clr-neutral-grayish-blue);
+}
+
+.news-title {
+    color: var(--clr-primary-soft-orange);
+    font-size: 2rem;
+}
+
+.new-item {
+    padding: 2rem 0;
+}
+
+.new-item:last-child {
+    padding-bottom: 0.5rem;
+}
+
+.new-item:not(:last-child) {
+    border-bottom: 0.1px solid var(--clr-neutral-grayish-blue);
+}
+
+.new-title {
+    font-size: 1.25rem;
+    font-weight: var(--fw-extrabold);
+    margin-bottom: 0.5rem;
+}
