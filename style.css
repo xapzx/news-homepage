@@ -72,8 +72,9 @@ header {
 
 .news {
     background-color: var(--clr-neutral-very-dark-blue);
-    padding: 1rem 1.3rem;
     color: var(--clr-neutral-grayish-blue);
+    padding: 1rem 1.3rem;
+    margin: 4rem 0;
 }
 
 .news-title {
