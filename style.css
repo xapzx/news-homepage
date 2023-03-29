@@ -64,6 +64,31 @@ header {
     display: none;
 }
 
+@media (min-width: 700px) {
+    body {
+        padding: 5rem 0;
+    }
+
+    .brand-logo {
+        width: 4rem;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-collapse {
+        all: unset;
+        color: var(--clr-neutral-dark-grayish-blue);
+        font-size: 1rem;
+        gap: 2.5rem;
+    }
+
+    .collapse {
+        display: flex;
+    }
+}
+
 .content-title {
     color: var(--clr-neutral-very-dark-blue);
     font-size: 2.5rem;
