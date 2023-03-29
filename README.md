@@ -10,6 +10,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -38,3 +39,16 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### What I learned
+
+During this project, I learnt about the uses of the 'picture' tag. Specifically, using the 'source' tag inside of it to change the image depending on the screen width.
+
+To see how you can add code snippets, see below:
+
+```html
+<picture>
+  <source srcset="assets/images/image-web-3-desktop.jpg" media="(min-width: 1000px)"/>
+  <img src="assets/images/image-web-3-mobile.jpg" alt="Image for Web 3.0" class="main-img">
+</picture>
+```
